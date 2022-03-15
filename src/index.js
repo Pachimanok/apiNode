@@ -5,7 +5,6 @@ const app = express();
 app.set('port', process.env.PORT || 3000);
 
 // Middelwares
-app.use(express.json());
 
 // Route (Urls)
 app.use(require('./routes/employees'));
